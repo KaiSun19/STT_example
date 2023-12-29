@@ -30,7 +30,7 @@ const io = new Server(server, {
 });
 
 //TODO: Create this file in the server directory of the project
-process.env.GOOGLE_APPLICATION_CREDENTIALS = "./speech-to-text-key.json";
+process.env.GOOGLE_APPLICATION_CREDENTIALS = "./charla-service-key.json";
 
 const speechClient = new speech.SpeechClient();
 
